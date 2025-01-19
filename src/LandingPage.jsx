@@ -5,9 +5,9 @@ function LandingPage() {
             <div className="textstructure mt-36 px-20">
                 {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
                     return <div className="masker ">
-                        <div className="w-fit flex items-center">
-                            {index===1 && (<div className="relative rounded-md mt-[12.5px] mr-[1vw] w-[11vw] h-[6.2vw] bg-white"></div>)}
-                        <h1 className="uppercase text-9xl leading-[7.5vw] font-custom font-medium">{item}</h1>
+                        <div className="w-fit flex items-end ">
+                            {index===1 && (<div className="mr-[1vw] w-[8vw] rounded-md h-[5.7vw] top-[0.9vw] relative bg-green-500"></div>)}
+                        <h1 className="pt-[2vw] -mb-[1vw] uppercase text-[9vw] leading-[.75] font-custom ">{item}</h1>
 
                         </div>
                     </div>
