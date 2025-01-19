@@ -1,9 +1,10 @@
 import About from "./components/About"
+import Eyes from "./components/Eyes"
 import Marque from "./components/Marque"
 import Navbar from "./components/Navbar"
 import LandingPage from "./LandingPage"
 
-//26
+//1:23:32
 function App() {
   
 
@@ -13,6 +14,7 @@ function App() {
       <LandingPage/>
       <Marque/>
       <About/>
+      <Eyes/>
     </div>
   )
 }
