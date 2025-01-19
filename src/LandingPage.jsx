@@ -1,7 +1,7 @@
 import { FaArrowUpLong } from "react-icons/fa6";
 function LandingPage() {
     return (
-        <div className="w-full h-screen bg-zinc-900 pt-1">
+        <div className="w-full h-screen bg-[#F1F1F1] pt-1">
             <div className="textstructure mt-36 px-20">
                 {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
                     return <div className="masker ">
@@ -14,11 +14,11 @@ function LandingPage() {
                 })}
             </div>
 
-            <div className="border-t-[1px] border-zinc-100 mt-20 flex justify-between items-center px-10 py-2  ">
+            <div className="border-t-[1px] border-zinc-900 mt-20 flex justify-between items-center px-10 py-2  ">
                 {["For public and private companies", "From the first pitch to IPO"].map((item) => <p className="text-md font-light tracking-tight leading-none">{item}</p>)}
                 <div className="start flex items-center gap-5 ">
-                    <div className="px-4 py-2 border-[1px] font-light text-sm border-zinc-100 rounded-full leading-none">START THE PROJECT</div>
-                    <div className="w-8 h-8 flex items-center justify-center rounded-full border-[1px] border-zinc-100  ">
+                    <div className="px-4 py-2 border-[1px] font-light text-md border-zinc-900 rounded-full leading-none">START THE PROJECT</div>
+                    <div className="w-8 h-8 flex items-center justify-center rounded-full border-[1px] border-zinc-900  ">
                         <span className="rotate-[45deg] "><FaArrowUpLong/></span>
                     </div>
                 </div>

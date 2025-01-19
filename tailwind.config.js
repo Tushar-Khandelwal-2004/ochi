@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         custom: ['"Test Founders Grotesk X-Cond SmBd"', 'sans-serif'],
+        custom2:['"Neue Montreal"','sans-serif'],
       },
     },
   },

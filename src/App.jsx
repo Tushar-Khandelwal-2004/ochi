@@ -1,3 +1,5 @@
+import About from "./components/About"
+import Marque from "./components/Marque"
 import Navbar from "./components/Navbar"
 import LandingPage from "./LandingPage"
 
@@ -6,9 +8,11 @@ function App() {
   
 
   return (
-    <div className="w-full h-screen text-white">
+    <div className="w-full h-screen ">
       <Navbar/>
       <LandingPage/>
+      <Marque/>
+      <About/>
     </div>
   )
 }
