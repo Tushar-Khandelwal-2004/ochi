@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ['"Test Founders Grotesk X-Cond SmBd"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Test Founders Grotesk X-Cond SmBd';
+    src: url('/src/assets/fonts/FOUNDERSGROTESK-SEMIBOLD.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
