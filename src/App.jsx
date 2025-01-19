@@ -1,5 +1,6 @@
 import About from "./components/About"
 import Eyes from "./components/Eyes"
+import Features from "./components/Features"
 import Marque from "./components/Marque"
 import Navbar from "./components/Navbar"
 import LandingPage from "./LandingPage"
@@ -15,6 +16,7 @@ function App() {
       <Marque/>
       <About/>
       <Eyes/>
+      <Features/>
     </div>
   )
 }
