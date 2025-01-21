@@ -11,11 +11,16 @@ import Temp from "./components/temp"
 import FeatureCard from "./components/FeatureCard"
 import FeatureEndButton from "./components/FeatureEndButton"
 import ClientReview from "./components/ClientReview"
+import Button3 from "./components/Button3"
 function App() {
   
   const locomotiveScroll=new LocomotiveScroll();
   // return (
-  //   <Temp/>
+  //   <div className="bg-zinc-900">
+  //   <Button3 text="read"/>
+
+  //   </div>
+
   // )
   return (
     <div className="w-full h-screen ">
