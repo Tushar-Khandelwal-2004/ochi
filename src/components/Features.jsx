@@ -25,11 +25,11 @@ function Features() {
             <div className="flex">
                     <div className="uppercase w-1/2 flex items-center gap-2">
                         <div className="w-[10px] h-[10px] rounded-full bg-zinc-900"></div>
-                        trawa
+                        vise
                     </div>
                     <div className="uppercase w-1/2 flex items-center gap-2 pl-2">
                         <div className="w-[10px] h-[10px] rounded-full bg-zinc-900"></div>
-                        pleta
+                        fyde
                     </div>
                 </div>
 
