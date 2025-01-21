@@ -35,9 +35,9 @@ function LandingPage() {
             <div className="border-t-[1px] border-zinc-900 mt-20 flex justify-between items-center px-10 py-2  ">
                 {["For public and private companies", "From the first pitch to IPO"].map((item) => <p className="text-md font-light tracking-tight leading-none">{item}</p>)}
                 <div className="start flex items-center gap-5 pt-1 ">
-                    <Button2 text="START THE PROJECT"/>
+                    <Button2 text="START THE PROJECT" track={true}/>
                     {/* <div className="px-4 py-2 border-[1px] font-light text-md border-zinc-900 rounded-full leading-none">START THE PROJECT</div> */}
-                    <div className="w-8 h-8 flex items-center justify-center rounded-full border-[1px] border-zinc-900  ">
+                    <div className="-ml-3 w-8 h-8 flex items-center justify-center rounded-full border-[1px] border-zinc-900  ">
                         <span className="rotate-[45deg] "><FaArrowUpLong /></span>
                     </div>
                 </div>
