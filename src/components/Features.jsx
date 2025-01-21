@@ -18,7 +18,7 @@ function Features() {
     }
     return (
         <div className="w-full bg-[#F1F1F1]">
-            <div className="w-full px-10 border-b-[1px] border-[#a1b562] pb-5">
+            <div className="w-full px-12 border-b-[1px] border-[#a1b562] pb-5">
                 <h1 className="text-[4vw] font-custom2 tracking-tight">Featured Projects</h1>
             </div>
             <div className="px-12 mt-10">

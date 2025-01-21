@@ -22,7 +22,12 @@ function Footer() {
                     <a className="block underline underline-offset-3 mb-1 " target="_blank" href="https://x.com/Beluga_69_69">Instagram</a>
                     <a className="block underline underline-offset-3 " target="_blank" href="https://x.com/Beluga_69_69">Twitter</a>
                 </div>
-                <div className="flex justify-between mt-56 text-[#B6B6B6]">
+                <div className="font-custom2 text-xl mt-10 flex">Made By&nbsp;<a className={`text-md capitalize font-normal relative w-fit block cursor-pointer 
+                        after:content-[''] after:absolute after:h-[0.5px] after:bg-zinc-900 after:left-0 after:bottom-0 
+                        after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition-transform after:duration-300 
+                        after:origin-center`}>Tushar
+                </a></div>
+                <div className="flex justify-between mt-36 text-[#B6B6B6]">
                     <h3>&copy; ochi design 2025. Legal Terms</h3>
                     <h3>Website by Obys</h3>
                 </div>

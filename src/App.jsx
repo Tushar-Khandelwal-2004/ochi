@@ -10,11 +10,12 @@ import LocomotiveScroll from "locomotive-scroll"
 import Temp from "./components/temp"
 import FeatureCard from "./components/FeatureCard"
 import FeatureEndButton from "./components/FeatureEndButton"
+import ClientReview from "./components/ClientReview"
 function App() {
   
   const locomotiveScroll=new LocomotiveScroll();
   // return (
-  //   <FeatureCard/>
+  //   <Temp/>
   // )
   return (
     <div className="w-full h-screen ">
@@ -26,6 +27,7 @@ function App() {
       <Features/>
       <FeatureCard/>
       <FeatureEndButton/>
+      <ClientReview/>
       <Cards/>
       <Footer/>
     </div>
