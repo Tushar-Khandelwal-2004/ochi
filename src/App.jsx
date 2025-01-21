@@ -8,11 +8,12 @@ import Navbar from "./components/Navbar"
 import LandingPage from "./components/LandingPage"
 import LocomotiveScroll from "locomotive-scroll"
 import Temp from "./components/temp"
+import FeatureCard from "./components/FeatureCard"
 function App() {
   
   const locomotiveScroll=new LocomotiveScroll();
   // return (
-  //   <Temp/>
+  //   <FeatureCard/>
   // )
   return (
     <div className="w-full h-screen ">
@@ -22,6 +23,7 @@ function App() {
       <About/>
       <Eyes/>
       <Features/>
+      <FeatureCard/>
       <Cards/>
       <Footer/>
     </div>
