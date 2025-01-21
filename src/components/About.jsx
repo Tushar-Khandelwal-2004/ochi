@@ -6,7 +6,7 @@ function About() {
     <div className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl">
       <h1 className="font-custom2 text-[4vw] leading-[4vw] tracking-tight ">Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
 
-      <div className=" flex gap-5 w-full border-t-[1px] pt-5 border-[#a1b562] mt-10">
+      <div className=" flex gap-5 w-full border-t-[1px] pt-5 pb-12 border-[#a1b562] mt-10">
         <div className="w-1/2 text-base font-regular text-zinc-800 font-custom2 ">
           What you can expect:
         </div>

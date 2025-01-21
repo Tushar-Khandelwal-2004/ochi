@@ -29,7 +29,7 @@ function Footer() {
                 </a></div>
                 <div className="flex justify-between mt-36 text-[#B6B6B6]">
                     <h3>&copy; ochi design 2025. Legal Terms</h3>
-                    <h3>Website by Obys</h3>
+                    <h3>Website by Tushar</h3>
                 </div>
             </div>
         </div>

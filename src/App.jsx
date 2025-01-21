@@ -16,11 +16,7 @@ function App() {
   
   const locomotiveScroll=new LocomotiveScroll();
   // return (
-  //   <div className="bg-zinc-900">
-  //   <Button3 text="read"/>
-
-  //   </div>
-
+  //   <Temp/>
   // )
   return (
     <div className="w-full h-screen ">
