@@ -32,7 +32,7 @@ function Navbar() {
             <div className="links flex gap-6">
                 {["Services", "Our work", "About us", "Insights", "Contact us"].map((item, index) => (
                     <a key={index} className={`text-md font-normal relative w-fit block cursor-pointer 
-                        after:content-[''] after:absolute after:h-[0.5px] after:bg-zinc-900 after:left-0 after:bottom-0 
+                        after:content-[''] after:absolute after:h-[0.5px] after:bg-zinc-800 after:left-0 after:bottom-0 
                         after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition-transform after:duration-300 
                         after:origin-center ${index === 4 && "ml-32"}`}>{item}</a>
 
