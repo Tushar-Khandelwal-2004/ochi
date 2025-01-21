@@ -10,7 +10,6 @@ import LocomotiveScroll from "locomotive-scroll"
 import FeatureCard from "./components/FeatureCard"
 import FeatureEndButton from "./components/FeatureEndButton"
 import ClientReview from "./components/ClientReview"
-import Temp from "./components/temp"
 
 function App() {
   

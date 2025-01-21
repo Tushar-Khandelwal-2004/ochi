@@ -1,6 +1,5 @@
 import photo from "../assets/photo.jpg"
 import Button1 from "./Button1"
-import Button2 from "./Button2"
 function About() {
   return (
     <div className="w-full p-20 bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl">
