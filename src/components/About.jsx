@@ -43,9 +43,19 @@ function About() {
           <Button1 text="Read More" />
           {/* <button className="flex gap-10 items-center uppercase mt-8 px-8 py-4 bg-zinc-900 rounded-full text-white ">Read More <div className="w-2 h-2 rounded-full bg-zinc-100"></div></button> */}
         </div>
-        <div className="w-1/2 ">
-          <img src={photo} className="rounded-3xl " alt="photo" />
+
+        <div className="w-1/2 group overflow-hidden rounded-3xl  ">
+          <img
+            src={photo}
+            className="object-cover w-full group-hover:scale-110 transition-transform duration-300 ease-in-out"
+            alt="photo"
+          />
         </div>
+
+
+        {/* <div className="w-1/2 ">
+          <img src={photo} className="rounded-3xl " alt="photo" />
+        </div> */}
       </div>
     </div>
   )

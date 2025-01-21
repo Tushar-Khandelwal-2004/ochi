@@ -1,55 +1,18 @@
-import { useEffect, useRef } from 'react';
-import { gsap } from 'gsap';
-
+import React from 'react';
+import image from "../assets/image1.png"
 const Temp = () => {
-    const underlineRef = useRef(null);
-
-    useEffect(() => {
-        const underline = underlineRef.current;
-
-        const fadeOut = () => {
-            gsap.to(underline, {
-                scaleX: 0,
-                transformOrigin: 'left',
-                duration: 1.5,
-                ease: 'power2.inOut',
-            });
-        };
-
-        const fadeIn = () => {
-            gsap.to(underline, {
-                scaleX: 1,
-                transformOrigin: 'left',
-                duration: 1.5,
-                ease: 'power2.inOut',
-            });
-        };
-
-        // Trigger fade-out and fade-in continuously while hovering
-        const handleMouseEnter = () => {
-            fadeOut();
-            fadeIn();
-        };
-
-        // Attach events
-        const linkElement = underline.closest('a');
-        linkElement.addEventListener('mouseenter', handleMouseEnter);
-
-        // Clean up the event listeners on unmount
-        return () => {
-            linkElement.removeEventListener('mouseenter', handleMouseEnter);
-        };
-    }, []);
-
     return (
-        <a href="#" className="relative inline-block text-black font-medium group">
-            <span className="relative">Hover Me</span>
-            {/* Underline */}
-            <span
-                ref={underlineRef}
-                className="absolute left-0 bottom-0 h-[2px] w-full bg-black transform origin-left scale-x-100"
-            ></span>
-        </a>
+        <div className="w-full h-screen flex items-center justify-center min-h-screen bg-gradient-to-br from-teal-100 via-teal-300 to-teal-500">
+            <div className="overflow-hidden aspect-video bg-red-400 cursor-pointer rounded-xl relative group">
+                <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
+                </div>
+                <img
+                    alt=""
+                    className="w-96 object-cover  aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                    src={image}
+                />
+            </div>
+        </div>
     );
 };
 
