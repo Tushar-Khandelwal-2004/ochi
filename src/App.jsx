@@ -7,11 +7,11 @@ import Marque from "./components/Marque"
 import Navbar from "./components/Navbar"
 import LandingPage from "./components/LandingPage"
 import LocomotiveScroll from "locomotive-scroll"
-import Temp from "./components/temp"
 import FeatureCard from "./components/FeatureCard"
 import FeatureEndButton from "./components/FeatureEndButton"
 import ClientReview from "./components/ClientReview"
-import Button3 from "./components/Button3"
+import Temp from "./components/temp"
+
 function App() {
   
   const locomotiveScroll=new LocomotiveScroll();

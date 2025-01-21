@@ -22,7 +22,7 @@ function Footer() {
                     <a className="block underline underline-offset-3 mb-1 " target="_blank" href="https://x.com/Beluga_69_69">Instagram</a>
                     <a className="block underline underline-offset-3 " target="_blank" href="https://x.com/Beluga_69_69">Twitter</a>
                 </div>
-                <div className="font-custom2 text-xl mt-10 flex">Made By&nbsp;<a className={`text-md capitalize font-normal relative w-fit block cursor-pointer 
+                <div className="font-custom2 text-xl mt-10 flex items-baseline">Made by&nbsp;<a target="_blank" href="https://x.com/Beluga_69_69" className={`text-3xl capitalize font-normal relative w-fit block cursor-pointer 
                         after:content-[''] after:absolute after:h-[0.5px] after:bg-zinc-900 after:left-0 after:bottom-0 
                         after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition-transform after:duration-300 
                         after:origin-center`}>Tushar
