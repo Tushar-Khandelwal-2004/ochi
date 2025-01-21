@@ -14,9 +14,7 @@ import ClientReview from "./components/ClientReview"
 function App() {
   
   const locomotiveScroll=new LocomotiveScroll();
-  // return (
-  //   <Temp/>
-  // )
+  
   return (
     <div className="w-full h-screen ">
       <Navbar/>
