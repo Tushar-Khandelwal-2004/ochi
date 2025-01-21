@@ -2,6 +2,7 @@ import image1 from "../assets/trawa.jpg"
 import image2 from "../assets/pleta.png"
 import { Power4 } from "gsap"
 import { delay, motion, useAnimation } from "framer-motion"
+import Button2 from "./Button2";
 function FeatureCard() {
     const cards = [useAnimation(), useAnimation()];
 
@@ -88,6 +89,19 @@ function FeatureCard() {
                         </div>
                     </motion.div>
 
+                </div>
+                <div className="pt-4">
+                    <div className="flex">
+                        <div className="w-1/2 flex gap-2">
+                            <div><Button2 text="brand identity" /></div>
+                            <div><Button2 text="design research" /></div>
+                            <div><Button2 text="investor deck" /></div>
+                        </div>
+                        <div className="w-1/2 pl-[9px]">
+                            <Button2 text="branded template" />
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

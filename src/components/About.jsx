@@ -8,7 +8,7 @@ function About() {
       <div className=" flex gap-5 w-full border-t-[1px] pt-5 border-[#a1b562] mt-10">
         <div className="w-1/2">
           <h1 className="text-[4vw]">Our approach:</h1>
-          <Button1/>
+          <Button1 text="Read More"/>
           {/* <button className="flex gap-10 items-center uppercase mt-8 px-8 py-4 bg-zinc-900 rounded-full text-white ">Read More <div className="w-2 h-2 rounded-full bg-zinc-100"></div></button> */}
         </div>
         <div className="w-1/2 ">

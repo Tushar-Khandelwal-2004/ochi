@@ -9,6 +9,7 @@ import LandingPage from "./components/LandingPage"
 import LocomotiveScroll from "locomotive-scroll"
 import Temp from "./components/temp"
 import FeatureCard from "./components/FeatureCard"
+import FeatureEndButton from "./components/FeatureEndButton"
 function App() {
   
   const locomotiveScroll=new LocomotiveScroll();
@@ -24,6 +25,7 @@ function App() {
       <Eyes/>
       <Features/>
       <FeatureCard/>
+      <FeatureEndButton/>
       <Cards/>
       <Footer/>
     </div>
