@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FaArrowUpLong } from "react-icons/fa6";
 import ochi from "../assets/ochi.png"
+import Button2 from "./Button2";
 function LandingPage() {
     return (
         <div data-scroll data-scroll-section data-scroll-speed="-.3" className="w-full h-screen bg-[#F1F1F1] pt-1">
@@ -34,7 +35,8 @@ function LandingPage() {
             <div className="border-t-[1px] border-zinc-900 mt-20 flex justify-between items-center px-10 py-2  ">
                 {["For public and private companies", "From the first pitch to IPO"].map((item) => <p className="text-md font-light tracking-tight leading-none">{item}</p>)}
                 <div className="start flex items-center gap-5 pt-1 ">
-                    <div className="px-4 py-2 border-[1px] font-light text-md border-zinc-900 rounded-full leading-none">START THE PROJECT</div>
+                    <Button2 text="START THE PROJECT"/>
+                    {/* <div className="px-4 py-2 border-[1px] font-light text-md border-zinc-900 rounded-full leading-none">START THE PROJECT</div> */}
                     <div className="w-8 h-8 flex items-center justify-center rounded-full border-[1px] border-zinc-900  ">
                         <span className="rotate-[45deg] "><FaArrowUpLong /></span>
                     </div>
